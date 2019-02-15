@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+<title>Bootstrap Example</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  </head>
+  <body>
+<nav class="navbar navbar-default navbar-top" style="background-color:#efefef; height:100px;">
+  <div class="container-fluid">
+ 
+  <div class="navbar-header">
+  <a class="navbar-brand" href="#"><img src="images/Capture.jpg" style="height:60px;margin-top:2px;;"></a>
+  </div>
+  <div class="col-md-4" style="margin-top:20px;">
+   <form class="navbar-form navbar-left">
+  <div class="form-group form-inline has-feedback">
+  
+  <input type="text" class="form-control" id='n' style="border-radius:2rem;width:300px;" placeholder="Search">
+   <span class="glyphicon glyphicon-search form-control-feedback"></span>
+   </div>
+   
+  </form>
+  </div>
+  <div class="navbar-form navbar-right form-group form-inline">
+  <a href="index.html"><input class="btn btn-default" type="button" value="Logout" style="margin-top:20px; margin-right:20px; background-color:#BEBEBE;border-radius:2rem; width:125px"></a> 
+  </div>
+  <div class="navbar-form navbar-right form-group form-inline">
+  <h5 style="margin-top:30px;">Welcome,Admin <span><</span><span>Name</span><span>></span> ..</h5>
+  </div>
+  <div class="navbar-form navbar-right form-group form-inline">
+  <span class="glyphicon glyphicon-bell" style="margin-top:30px; "></span>
+  </div>
+  </div>
+  </nav>
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-md-2">
+  <div class="well">
+  <div class="panel-group panel-default">
+  <pre class="text-left" style="background-color:#C8C8C8"> <span class="lead" style="color:white;text-size:30px;">PROFILE</span><span style="color:white;margin-left:80px;">Edit</span></pre>        
+
+  <div class="panel-body">
+  <center>
+  <div class="well-sm" style="margin-left:30px;margin-right_30px;margin-top:10px;margin-bottom:30px;background-color:#C8C8C8">
+  <br/><br/><br/><br/><br/><br/><br/><br/>
+  </div>
+  <h3>M/S John Doe</h3>
+  <p><span class="glyphicon glyphicon-star" style="color:#c8c8c8"></span> <span style="color:#909090">3.7</span></p>
+  <br><h4>Contact<br/><small>978601XXXX</small></h4><br>
+  <h4>Address<br/><small>Lorem ipsum dolor sit amet,<br/> consectetuer adipiscing elt,<br/> sed diam nonummy nibh</small></h4>
+  <br/><br>
+  <button type="button" class="btn" style="border-radius:2rem;background-color:#e1e1e1;width:150px;margin-left:20px;">Contact Grizzly</button>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="container-fluid">
+  
+  <div class="col-md-10">
+  <ul class="nav nav-tab nav-justified" style="background-color:#dadada; height:65px;">
+  <li class="active" ><a data-toggle="pill" href="#products" style="color:black;height:60px;">PRODUCTS</a></li>
+  <li style="text-color:black;background-color:#BEBEBE"><a data-toggle="pill" href="#vendors" style="color:black;height:60px;">INVENTORY</a></li>
+  <li style="text-color:black;background-color:#dadada"><a data-toggle="pill" href="#vendors" style="color:black;height:60px;">PROFILE</a></li>
+  </ul>
+  <div class="tab-content">
+  <div id="products" class="tab-pane fade in active">
+  <div class="form-group form-inline">
+ <div class="btn">
+<button type="button" class="btn disabled dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" style="border-radius:2rem; margin-top:15px;width:120%;">Choose Action <span class="caret" style="margin-left:15px;"></span> </button>
+  </div>
+  <div class="form-group has-feedback">
+  
+  <input type="text" class="form-control" id='n' style="border-radius:2rem; margin-top:15px; margin-left:30px;background-color:#e9e9e9;" placeholder="Product/Name ID..">
+   <span class="glyphicon glyphicon-search form-control-feedback" style="margin-top:15px;"></span>
+   </div>
+   <div class="form-group">
+   <div class="btn-group">
+  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" style="border-radius:2rem; margin-top:15px;width:120%;margin-left:15px;"><span style="text-align:left">Sort by</span> <span class="caret" style="margin-left:20px;"></span> </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a class="dropdown-item" href="#">Link 1</a></li>
+    <li><a class="dropdown-item" href="#">Link 2</a></li>
+  </ul>
+  </div>
+  </div>
+ <div class="form-group">
+ <form target="addproduct.html">`
+   <button type="button" class="btn" style="border-radius:2rem;margin-top:15px;margin-left:700px; background-color:grey;color:black;"><a href="addproduct.html" style="color:black;">Add Product</a></button>
+   </form>
+ 
+ </div>
+ <div class="row">
+ <div class="col-md-9">
+ <table class="table table-responsive table-condensed" style="margin-top:50px;margin-left:30px;">
+ <thead>
+ <tr>
+ <th class="text-center" style="border:non">Product List</th>
+ <th class="text-center">ID</th>
+ <th class="text-center">Brand</th>
+ <th class="text-center">Category</th>
+ <th class="text-center">Rating</th>
+  <th></th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td style="border-left:none;"><label class="containe">Trimmer
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></td>
+<td>TRX0098</td>
+ <td>Philips</td>
+ <td>Personal Care</td>
+ <td>4.7</td>
+ <td><button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px;margin-left:20px;">View</button>
+ <button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px; margin-left:20px;">Block</button></td>
+ </tr>
+ <tr>
+<td><label class="containe">Shaver
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></td>
+<td>BS6785</td>
+<td>Barun</td>
+<td>Personal Care</td>
+<td>4.8</td>
+<td><button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px;margin-left:20px;">View</button>
+ <button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px; margin-left:20px;">Block</button>
+ </td>
+</tr>
+<tr>
+<td><label class="containe">MacBook Pro
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></td>
+<td>MAC4567</td>
+<td>Apple</td>
+<td>Laptops</td>
+<td>4.9</td>
+ <td><button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px;margin-left:20px;">View</button>
+ <button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px; margin-left:20px;">Block</button>
+ </td>
+</tr>
+<tr>
+<td><label class="containe">iMac 27
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></td>
+<td>IMAC3452</td>
+<td>Apple</td>
+<td>Laptops</td>
+<td>4.6</td>
+ <td><button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px;margin-left:20px;">View</button>
+ <button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px; margin-left:20px;">Block</button>
+ </td>
+</tr>
+<tr>
+<td><label class="containe">Micro Pens
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label> </td>
+<td>SPMP345</td>
+<td>Sakura Pigma</td>
+<td>Art Supplies</td>
+<td>4.1</td>
+ <td><button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px;margin-left:20px;">View</button>
+ <button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px; margin-left:20px;">Block</button>
+ </td>
+</tr>
+<tr>
+<td><label class="containe">Paint Maker
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></td>
+<td>PMC4567</td>
+<td>Copic</td>
+<td>Art Supplies</td>
+<td>4.2</td>
+ <td><button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px;margin-left:20px;">View</button>
+ <button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px; margin-left:20px;">Block</button>
+ </td>
+</tr>
+ </table>
+ </div>
+ </div>
+ </div>
+ 
+
+
+  </div>
+  <div id="vendors" class="tab-pane">
+   <div class="form-group form-inline">
+ <div class="btn">
+  <button type="button" class="btn disabled dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" style="border-radius:2rem; margin-top:15px;width:120%;">Choose Action <span class="caret" style="margin-left:15px;"></span> </button>
+  </div>
+  <div class="form-group has-feedback">
+  
+  <input type="text" class="form-control" id='n' style="border-radius:2rem; margin-top:15px; margin-left:30px;background-color:#e9e9e9" placeholder="Product Name/ID..">
+   <span class="glyphicon glyphicon-search form-control-feedback" style="margin-top:15px;"></span>
+   </div>
+   <div class="form-group">
+   <div class="btn-group">
+  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" style="border-radius:2rem; margin-top:15px;width:120%;margin-left:15px;"><span style="text-align:left">Sort by</span> <span class="caret" style="margin-left:20px;"></span> </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a class="dropdown-item" href="#">Link 1</a></li>
+    <li><a class="dropdown-item" href="#">Link 2</a></li>
+  </ul>
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-md-9">
+  <table class="table table-responsive table-condensed" style="margin-top:50px;margin-left:30px;">
+ <thead>
+ <tr>
+ <th class="text-center" style="border:non">Product List</th>
+ <th class="text-center">ID</th>
+ <th class="text-center">IN Stock</th>
+ <th class="text-center">Req.</th>
+ <th class="text-center">Buffer</th>
+ <th class="text-center">Price/ Item</th>
+ <th class="text-center">Pending</th>
+ <th class="text-center">Rating</th>
+  <th></th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td style="border-left:none;"><label class="containe">Trimmer
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></td>
+<td>TRX0098</td>
+ <td>34</td>
+ <td>11</td>
+ <td>45</td>
+ <td>1,350.00</td>
+ <td>3</td>
+ <td>4.7</td>
+ <td><button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px;margin-left:20px;">Manage</button></td>
+ </tr>
+ <tr>
+<td><label class="containe">Shaver
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></td>
+<td>BS6785</td>
+<td>23</td>
+<td>0</td>
+<td>10</td>
+<td>4,700.00</td>
+<td>1</td>
+<td>4.8</td>
+<td><button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px;margin-left:20px;">Manage</button>
+ </td>
+</tr>
+<tr>
+<td><label class="containe">MacBook Pro
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></td>
+<td>MAC4567</td>
+<td>15</td>
+<td>0</td>
+<td>5</td>
+<td>1,53,000.00</td>
+<td>1</td>
+<td>4.9</td>
+ <td><button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px;margin-left:20px;">Manage</button>
+ </td>
+</tr>
+<tr>
+<td><label class="containe">iMac 27
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></td>
+<td>IMAC3452</td>
+<td>12</td>
+<td>0</td>
+<td>5</td>
+<td>97,0000.00</td>
+<td>0</td>
+<td>4.6</td>
+ <td><button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px;margin-left:20px;">Manage</button>
+ </td>
+</tr>
+<tr>
+<td><label class="containe">Micro Pens
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label> </td>
+<td>SPMP345</td>
+<td>60</td>
+<td>15</td>
+<td>75</td>
+<td>450.00</td>
+<td>4</td>
+<td>4.1</td>
+ <td><button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px;margin-left:20px;">Manage</button>
+ </td>
+</tr>
+<tr>
+<td><label class="containe">Paint Maker
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></td>
+<td>PMC4567</td>
+<td>45</td>
+<td>15</td>
+<td>60</td>
+<td>4,200.00</td>
+<td>2</td>
+<td>4.2</td>
+ <td><button type="button" class="btn disabled" style="border-radius:2rem;background-color:#e1e1e1;width:150px;margin-left:20px;">Manage</button>
+ </td>
+</tr>
+ </table>
+ </div>
+ </div>
+ </div>
+  </div>
+  </div>
+  
+  </div>
+  
+  </div>
+  </body>
+  </html>

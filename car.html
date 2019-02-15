@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+<title>Bootstrap Example</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/car.css">
+  </head>
+  <body>
+<nav class="navbar navbar-default navbar-top" style="background-color:#efefef; height:100px;">
+  <div class="container-fluid">
+ 
+  <div class="navbar-header">
+  <a class="navbar-brand" href="#"><img src="images/Capture.jpg" style="height:60px;margin-top:2px;;"></a>
+  </div>
+  <div class="col-md-4" style="margin-top:20px;">
+   <form class="navbar-form navbar-left">
+  <div class="form-group form-inline has-feedback">
+  
+  <input type="text" class="form-control" id='n' style="border-radius:2rem;width:300px;" placeholder="Search">
+   <span class="glyphicon glyphicon-search form-control-feedback"></span>
+   </div>
+   
+  </form>
+  </div>
+  <div class="navbar-form navbar-right form-group form-inline">
+  <input class="btn btn-default" type="button" value="Logout" style="margin-top:20px; margin-right:20px; background-color:#BEBEBE;border-radius:2rem; width:125px">
+  </div>
+  <div class="navbar-form navbar-right form-group form-inline">
+  <h5 style="margin-top:30px;">Welcome,Admin <span><</span><span>Name</span><span>></span> ..</h5>
+  </div>
+  <div class="navbar-form navbar-right form-group form-inline">
+  <span class="glyphicon glyphicon-bell" style="margin-top:30px;"></span>
+  </div>
+  </div>
+  </nav>
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-md-2">
+  <div class="well">
+  <div class="panel-group panel-default">
+  <pre class="text-left" style="background-color:#C8C8C8"> <span class="lead" style="color:white;text-size:30px;">PROFILE</span><span style="color:white;margin-left:100px;">Edit</span></pre>
+  <div class="panel-body">
+  <center>
+  <div class="well-sm" style="margin-left:30px;margin-right_30px;margin-top:10px;margin-bottom:30px;background-color:#C8C8C8">
+  <br/><br/><br/><br/><br/><br/><br/><br/>
+  </div>
+  <h2>Helen Cho</h2>
+  <h3>ID<br/><small>GRZLY1234</small></h3>
+  <br/>
+  <h3>Designation<br/><small>Sr.Admin</small></h3>
+  <br/>
+  <h3>Office<br/><small>NYC,NY,USA</small></h3>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="container">
+  
+  <div class="col-md-11">
+  <ul class="nav nav-tab nav-justified" style="background-color:#BEBEBE; height:65px;">
+  <li class="active" ><a data-toggle="pill" href="#products" style="color:black;height:60px;">Products</a></li>
+  <li style="text-color:black;background-color:#dadada"><a data-toggle="pill" href="#vendors" style="color:black;height:60px;">Vendors</a></li>
+  </ul>
+  <div class="tab-content">
+  <div id="products" class="tab-pane fade in active">
+  <div class="container-fluid">
+  <div class="col-md-5">
+  <br>
+  <p><span class="lead" style="color:#000000"><b>Trimmer</b></span> <span class="caption" style="color:#000000">by Philips</span>  <i class="fa fa-pen-square" style="font-size:20px; margin-left:10px; border-radius:2rem;"></i></p>
+
+  <p><span class="glyphicon glyphicon-star" style="color:#c8c8c8"></span> <span style="color:#909090">4.7</span></p>
+  
+   <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:500px;width:470px;background-color:#efefef">
+   <i class="fa fa-pen-square" style="font-size:30px; margin-left:10px; border-radius:2rem;"></i>
+   <!-- Indicators -->
+    <ol class="carousel-indicators" >
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>LA is always so much fun!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next" >
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+    <!-- Left and right controls -->
+	 <h3><center>Product Image Carousel !</center></h3>
+
+ 
+</div>
+<div class="col-md-4" style="margin-left:100px;">
+<h3 style="margin-top:140px">Product Description <i class="fa fa-pen-square" style="font-size:30px; margin-left:10px; border-radius:2rem;"></i></h3>
+<br><p>Stainless Steel Blades for long-lasting sharpness.<br> 
+	DuraPower technology for a longer lasting battery life.<br> 
+	Up to 30 minutes of cordless use after 8 hours charging.<br> 
+	USB charging for convenient use.<br> 
+	Choose beard lenghts of 1-5-7mm or the zero trim look.</p>
+	<br>
+	<br>
+	<br><br/><br/><br/><br/><br/>
+	<p><span class="lead" style="color:#000000">Rs. XXXX/-</span> 15%off <i class="fa fa-pen-square" style="font-size:20px; margin-left:10px; border-radius:2rem;"></i></p> 
+	
+</div>
+<div class="col-md-1">
+<input class="btn btn-default" type="button" value="Finish" style=" margin-top:500px;margin-left:500px;background-color:black;border-radius:2rem; width:125px;color:white;">
+	<input class="btn btn-default" type="button" value="Cancel" style="margin-top:10px;margin-left:500px;background-color:#BEBEBE;border-radius:2rem; width:125px">
+</div>
+</div>
+</div>
+<div id="vendors" class="tab-pane"><p>Hi</p></div>
+
+</div>
+</div>
+
+  </body>
+  </html>

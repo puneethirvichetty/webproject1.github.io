@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+<title>Bootstrap Example</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles/listprod.css">
+  </head>
+  <body>
+<nav class="navbar navbar-default navbar-top" style="background-color:#efefef; height:100px;">
+  <div class="container-fluid">
+ 
+  <div class="navbar-header">
+  <a class="navbar-brand" href="#"><img src="images/Capture.jpg" style="height:60px;margin-top:2px;;"></a>
+  </div>
+  <div class="col-md-4" style="margin-top:20px;">
+   <form class="navbar-form navbar-left">
+  <div class="form-group form-inline has-feedback">
+  
+  <input type="text" class="form-control" id='n' style="border-radius:2rem;width:300px;" placeholder="Search">
+   <span class="glyphicon glyphicon-search form-control-feedback"></span>
+   </div>
+   
+  </form>
+  </div>
+  <div class="navbar-form navbar-right form-group form-inline">
+  <a href="index.html"><input class="btn btn-default" type="button" value="Logout" style="margin-top:20px; margin-right:20px; background-color:#BEBEBE;border-radius:2rem; width:125px"></a>
+  </div>
+  <div class="navbar-form navbar-right form-group form-inline">
+  <h5 style="margin-top:30px;">Welcome,Admin <span><</span><span>Name</span><span>></span> ..</h5>
+  </div>
+  <div class="navbar-form navbar-right form-group form-inline">
+  <span class="glyphicon glyphicon-bell" style="margin-top:30px;"></span>
+  </div>
+  </div>
+  </nav>
+  
+	
+   <div class="col-md-2 well" style="margin-left:35px;margin-top:8px;">
+		
+	<div class="panel-group">
+			
+		<pre class="text-left" style="background-color:#C8C8C8"> <span class="lead" style="color:white;text-size:30px;">PROFILE</span><span style="color:white;margin-left:100px;">Edit</span></pre>
+		
+		<div class="panel-body">
+			
+			<center>
+			<div class="well-sm" style="background-color:#C8C8C8; margin-left:30px;margin-right:30px;margin-top:10px;margin-bottom:30px;">
+			                               
+				<br><br><br><br><br><br><br><br>
+			</div>
+			
+			<h4>Helen Cho</h4><br>
+			<h5>ID<br><small>GRZLY17234</small></h5><br>
+			<h5>Designation <br><small>Sr.Admin</small></h5><br>	
+			<h5>Office<br><small>NYC,NY,USA</small></h5>
+			</center>
+			<br>
+			<br>
+			<br>
+			
+		</div>
+			
+	</div>
+		
+   </div>
+		
+	
+	<div class="col-md-9" style="margin-left:50px;margin-top:8px;">
+		
+		<ul class="nav nav-tab nav-justified" style="background-color:#9a9a9a; height:65px;">
+  <li class="active" style="background-color:#b1b1b1"><a data-toggle="pill" href="#products" style="color:black;height:60px;">Products</a></li>
+  <li style="text-color:black;"><a data-toggle="pill" href="#vendors" style="color:black;height:60px;">Vendors</a></li>
+  </ul>	
+		
+		<div class="tab-content">
+			
+			<div id="products" class="tab-pane fade in active">
+			
+				<div class="col-md-4" id="plusimage">
+				<div class="well">
+				<center>
+				<img src="images/add.jpg">
+				</center>
+				<br/>
+				<center>
+				<h3>Add Images</h3>
+				</center>
+				</div>  
+<div class="row" style="margin-left:10px;margin-top:20px">
+ <div class="col-sm-2" >
+         <div class="well" id="col2" style="height:50px;width:50px;">
+              <p style="text-align:center">2</p>
+               <p style="margin-top:-60px;margin-left:20px"><i class="fa fa-times-circle"></i></p>
+              </div>
+         </div> 
+       <div class="col-sm-2" >
+         <div class="well" id="col2" style="height:50px;width:50px;">
+              <p style="text-align:center">3</p>
+               <p style="margin-top:-60px;margin-left:20px"><i class="fa fa-times-circle"></i></p>
+              </div>
+         </div> 
+         <div class="col-sm-2" >
+         <div class="well" id="col2" style="height:50px;width:50px;">
+              <p style="text-align:center">4</p>
+               <p style="margin-top:-60px;margin-left:20px"><i class="fa fa-times-circle"></i></p>
+              </div>
+         </div> 
+		 <div class="col-sm-2" >
+         <div class="well" id="col2" style="height:50px;width:50px;">
+              <p style="text-align:center">5</p>
+               <p style="margin-top:-60px;margin-left:20px"><i class="fa fa-times-circle"></i></p>
+              </div>
+         </div> 
+        </div> 
+ 
+
+				</div>
+				
+				
+				<div class="col-md-3" id="formaddprod">
+				<div class="form-responsive">
+				<form class="form">
+				<div class="form-group" > 
+				<input class="form-control" type="text" placeholder="Enter Product Id" style="margin-bottom:12px;" id="addprodinput">
+				<div class="form-group has-feedback">
+				<input class="form-control" type="text" placeholder="Category" style="margin-bottom:12px;" id="addprodinput"><span class="glyphicon glyphicon-chevron-down form-control-feedback"></span>
+				</div>
+				<input class="form-control" type="text" placeholder="Name" style="margin-bottom:12px;" id="addprodinput">
+				<input class="form-control" type="text" placeholder="Description" style="margin-bottom:12px;" id="addprodinput">
+				<input class="form-control" type="text" placeholder="Price" style="margin-bottom:12px;" id="addprodinput">
+				</form>
+				</div>
+				</div>	
+				</div>
+				
+				
+				
+				<div class="col-md-12 text-right">
+					<div class="btn-group-vertical">
+					<input type="button" class="btn btn-primary" value="Add" style="background-color:black;border-radius:2em;width:140px;margin-bottom:8px;">
+					<input type="button" class="btn btn-primary" value="Cancel" style="background-color:#F0F0F0;border-radius:2em;width:140px;color:black;">					
+					</div>
+				</div>
+				</div>
+			
+			
+				
+			
+			<div id="vendors" class="tab-pane fade in">
+			<p>hi</p>
+			</div>
+			</div>
+			</div>
+		
+		
+		</div>
+			
+	</div>
+	
+ </div>
+ </div>
+</body>
+</html>
