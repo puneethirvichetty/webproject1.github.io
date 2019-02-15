@@ -1,0 +1,10 @@
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+  }
+  .active a{
+	background-color:#808080;
+	text-color:black;
+}
+

@@ -1,0 +1,160 @@
+::placeholder {
+color: black;
+opacity: 1;
+}
+
+#navigation{
+background-color:#F0F0F0;
+margin-top:10px;
+}
+
+#searchbar{
+border-radius:2em;
+background-color:"#ffffff";
+}
+
+li {
+background-color:#F0F0F0;
+color:black;
+}
+
+.active a{
+background-color:#D3D3D3 !important;
+text-color:black;
+}
+
+#dropdowns{
+background-color:#F0F0F0;
+border-radius:3em;
+color:black;
+margin-top:20px;
+width:190px;
+}
+#table1{
+margin-top:40px;
+margin-left:20px;
+}
+th{
+color:#C0C0C0;
+font-size:20px;
+}
+#col2
+{
+
+background:#E1E0E0;
+} 
+
+.sideborder{
+border-left: solid 1px black;
+}
+
+th,td{
+	margin:10px;	
+	border-left: solid 1px #d3d3d3;
+
+}
+a{
+text-decoration: none;
+color:black;
+font-color:black;
+}
+#plusimage{
+	margin-top:60px;
+	margin-left:100px;
+}
+#formaddprod{
+	margin-left:60px;
+	margin-top:120px;
+}
+
+#addprodinput{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+
+}
+
+.cn {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+td{
+ font-size: 18px;
+}
+
+
+.cn input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius:2em;
+}
+
+
+.cn:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+
+.cn input:checked ~ .checkmark {
+  background-color: black;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.cn input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.cn .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.cont
+{
+	display:inline;
+}
+  .active a{
+	background-color:#808080;
+	text-color:black;
+}
+
+
+
+
